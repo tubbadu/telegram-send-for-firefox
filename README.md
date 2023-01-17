@@ -8,7 +8,7 @@ Note: this is only tested for linux systems (Fedora37, but should work with othe
 
 * install and configure [Telegram-send](https://pypi.org/project/telegram-send/), making sure it works fine
 
-* Install Firefox Addon
+* Install [Firefox Addon](https://addons.mozilla.org/it/firefox/addon/send-urls-with-telegram-send/)
 
 * download the native host files ([json](https://raw.githubusercontent.com/tubbadu/telegram-send-for-firefox/main/firefox_telegram_send_nativeHost.json) and [py](https://raw.githubusercontent.com/tubbadu/telegram-send-for-firefox/main/firefox-telegram-send.py))
 
