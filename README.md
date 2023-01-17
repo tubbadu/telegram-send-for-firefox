@@ -1,5 +1,11 @@
 # telegram-send-for-firefox
 
+Add a firefox context menu to send page links to telegram using telegram-send
+
+Note: this is only tested for linux systems (Fedora37, but should work with other linux OS too); Windows and MacOS won't probably work. However, it should be easy to make this work in Windows and MacOS too, so if you'd like fork the project and send the pull request!
+
+## Installation:
+
 * install and configure [Telegram-send](https://pypi.org/project/telegram-send/), making sure it works fine
 
 * Install Firefox Addon

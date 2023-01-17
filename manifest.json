@@ -9,12 +9,7 @@
 		"scripts": ["background.js"]
 	},
 	"permissions": ["menus", "nativeMessaging"],
-	"browser_specific_settings": {
-		"gecko": {
-			"id": "021065d06fa4c1789c5a310a488adc6182489802@temporary-addon",
-			"strict_min_version": "42.0"
-		}
-	},
+	
 	"icons": {
 		"48": "telegram-send.svg"
 	  }
