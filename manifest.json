@@ -1,34 +1,21 @@
 {
-  "author": "igorlogius",
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
-  },
-  "browser_action": {
-    "default_title": "toggle forward downloads"
-  },
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "fwdl@addons.mozilla.org",
-      "strict_min_version": "60.0"
-    }
-  },
-  "description": "forward download to an external application",
-  "icons": {
-      "128": "icon.png"
-  },
-  "manifest_version": 2,
-  "name": "fwdl",
-  "options_ui": {
-    "page": "options.html"
-  },
-  "permissions": [
-    "activeTab",
-    "nativeMessaging",
-    "downloads",
-    "storage",
-    "cookies"
-  ],
-  "version": "0.1.2"
+	"manifest_version": 2,
+	"name": "send to telegram-send",
+	"version": "1.0",
+
+	"description": "send links to telegram-send",
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": ["menus", "nativeMessaging"],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "021065d06fa4c1789c5a310a488adc6182489802@temporary-addon",
+			"strict_min_version": "42.0"
+		}
+	},
+	"icons": {
+		"48": "telegram-send.svg"
+	  }
 }

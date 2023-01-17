@@ -1,0 +1,7 @@
+{
+  "name": "firefox_telegram_send_nativeHost",
+  "description": "Native messaging host for firefox-telegram-send",
+  "path": "/home/tubbadu/code/telegram-send-for-firefox/firefox-telegram-send.py",
+  "type": "stdio",
+  "allowed_extensions": [ "021065d06fa4c1789c5a310a488adc6182489802@temporary-addon", "firefox-telegram-send@github.com" ]
+}
