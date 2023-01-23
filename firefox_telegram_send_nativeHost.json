@@ -3,5 +3,5 @@
 	"description": "Native messaging host for firefox-telegram-send",
 	"path": "/home/$USER/.mozilla/native-messaging-hosts/firefox-telegram-send.py",
 	"type": "stdio",
-	"allowed_extensions": [ "0ae1b560-69d7-4464-8906-964088ca4635", "firefox-telegram-send@github.com" ]
+	"allowed_extensions": [ "{0ae1b560-69d7-4464-8906-964088ca4635}", "firefox-telegram-send@github.com" ]
   }
