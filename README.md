@@ -46,8 +46,6 @@ rm $HOME/.mozilla/native-messaging-hosts/firefox_telegram_send_nativeHost.json
 rm $HOME/tubbadu/.mozilla/native-messaging-hosts/firefox-telegram-send.py
 ```
 
-
-
 ## TODO:
 
 * [ ] add feature: send highlightned text to telegram-send

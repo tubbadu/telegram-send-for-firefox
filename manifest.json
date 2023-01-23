@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "send to telegram-send",
-	"version": "1.0.1",
+	"version": "1.0.2",
 
 	"description": "send links to telegram-send",
 

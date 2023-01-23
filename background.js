@@ -22,6 +22,14 @@ browser.menus.create({
 		"48": "telegram-send.svg"
 	}
 });
+browser.menus.create({
+	id: "telegram-send-selection",
+	title: "Send selection to Telegram",
+	contexts: ["selection"],
+	"icons": {
+		"48": "telegram-send.svg"
+	}
+});
 
 browser.menus.onClicked.addListener(async function (info, tab) {
 	console.log(info)
@@ -46,6 +54,16 @@ browser.menus.onClicked.addListener(async function (info, tab) {
 	if (info.menuItemId == "telegram-send-page") {
 		try{
 			const resp =  await browser.runtime.sendNativeMessage("firefox_telegram_send_nativeHost", {"url": info.pageUrl, "type": "link"});
+			console.log("Received :" + resp);
+		}catch(e) {
+			console.log(`Error: ${e}`);
+		}
+	}
+
+	if (info.menuItemId == "telegram-send-selection") {
+		console.log(info)
+		try{
+			const resp =  await browser.runtime.sendNativeMessage("firefox_telegram_send_nativeHost", {"url": info.selectionText, "type": "text"});
 			console.log("Received :" + resp);
 		}catch(e) {
 			console.log(`Error: ${e}`);

@@ -22,5 +22,5 @@ Type = str(msg["type"])
 
 
 # TODO: use native syntax (currently docs are down)
-if(Type == "link"):
+if(Type == "link" or Type == "text"):
 	os.system(TELEGRAM_SEND + " '" + url + "'")
